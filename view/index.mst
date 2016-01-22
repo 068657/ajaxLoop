@@ -1,0 +1,4 @@
+<h1>Hello Chrome Extension!!</h1>
+<footer>author: {{author}}</footer>
+<input type="button" class="btn btn-default" value="新增" id="addLoop" role="button">
+<a href="#adda" class="btn btn-default" role="button">新增</a>

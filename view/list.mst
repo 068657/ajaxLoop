@@ -1,0 +1,17 @@
+<table class="table">
+    <thead>
+        <th>名称</th>
+        <th>URL</th>
+        <th>方式</th>
+    </thead>
+    <tbody>
+    {{#ajaxs}}
+    <tr>
+        <td>{{ajaxname}}</td>
+        <td>{{url}}</td>
+        <td>{{mtype}}</td>
+        <td><input data-ajaxname="{{ajaxname}}" type="button" role="button" class="btn btn-default runInList" value="运行"></td>
+    </tr>
+    {{/ajaxs}}
+    </tbody>
+</table>

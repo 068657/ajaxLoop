@@ -1,0 +1,26 @@
+{
+  "name": "ajaxLoop",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "zl"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "jquery": "~2.2.0",
+    "underscore": "~1.8.3",
+    "bootstrap": "~3.3.6",
+    "mustache.js": "mustache#~2.2.1",
+    "backbone.localStorage": "backbone.localstorage#~1.1.16"
+  }
+}

@@ -1,0 +1,33 @@
+<form class="form-horizontal" id="addajaxForm">
+    <div class="form-group">
+        <label for="ajaxname" class="col-sm-2 control-label">名称：</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" name="ajaxname" id="ajaxname" value="{{ajaxname}}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="url" class="col-sm-2 control-label">请求地址：</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" name="url" id="url" value="{{url}}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="mtype" class="col-sm-2 control-label">请求方式：</label>
+        <div class="col-sm-4">
+            <input type="radio" value="get" name="mtype">get
+            <input type="radio" value="post" name="mtype">post
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="args" class="col-sm-2 control-label">请求参数：</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="args" value="{{args}}">
+            <div id="placeArgs">
+                <input type="hidden" name="args">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="button" class="btn btn-default" value="增加" id="addModel" role="button">
+    </div>
+</form>

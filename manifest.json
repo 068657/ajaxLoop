@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "ajaxLoop",
+  "version": "0.0.1",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "assets/icon_16.png"
+  },
+  "browser_action": {
+    "icons": {
+      "16": "assets/icon_16.png"
+    },
+    "default_title": "ajaxLoop"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

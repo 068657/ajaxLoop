@@ -2,14 +2,33 @@
 
 <html>
 <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>ajaxLoop</title>
-
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div id="greeting"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <ul class="nav nav-stacked">
+          <li role="presentation"><a href="#adda">新增请求</a></li>
+          <li role="presentation"><a href="#list">请求列表</a></li>
+        </ul>
+      </div>
+      <div class="col-md-10" id="content">
 
+      </div>
+    </div>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/mustache.js/mustache.js"></script>
+  <script src="bower_components/backbone/backbone.js"></script>
+  <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
   <script src="main.js"></script> 
 </body>
 </html>
